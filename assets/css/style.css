@@ -130,7 +130,7 @@ h6 {
   background: rgba(0, 0, 0, 0.8);
 }
 
-#header .logo {
+/* #header .logo {
   font-size: 32px;
   margin: 0;
   padding: 0;
@@ -146,10 +146,12 @@ h6 {
 
 #header .logo a span {
   color: #ffc451;
-}
+} */
 
 #header .logo img {
-  max-height: 40px;
+  /* max-height: 40px; */
+  width: 120px; 
+  height: auto;
 }
 
 /*--------------------------------------------------------------
@@ -261,7 +263,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  background-color: #ffc451;
+  background-color: #d7b672;
 }
 
 .navbar .dropdown:hover>ul {
